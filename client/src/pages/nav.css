@@ -1,0 +1,44 @@
+/* Reset default margin and padding */
+
+/* navigation-container styles */
+.navigation-container {
+ 
+ position: relative;
+ /* Add padding for better spacing */
+  background-color:transparent;
+    /* padding: 10px 20px; */
+    justify-content: space-between; 
+     display: flex; 
+    width: 100vmax;
+    margin-top: 0;
+
+  }
+  .navigation-container:hover
+  {
+    background-color: rgb(0, 0, 193);
+  }
+  /* Logo container styles */
+  .logo-container,
+  .button-container {
+    display: flex;
+    align-items: center;
+  padding: 10px 20px;
+     /* Vertically center the content */
+  }
+  
+  /* Logo styles */
+  .logo {
+    width: 100px; /* Set the width of the logo */
+    height: auto;
+  }
+  
+  /* Cancel button styles */
+  .cancel-button {
+    color: white;
+    background-color: #ff4d4f; /* Example background color for the button */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

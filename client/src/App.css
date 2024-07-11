@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #aec9f8;
+}
+
+.form-container {
+  width: 400px; /* Adjust the width as needed */
+  max-width: 500px; /* Optional: set a maximum width for larger screens */
+  background-color: white;
+  align-items: center;
+  text-align: center;
+
+  
+  /* Optional: add padding for better spacing */
+}
+
+.title,
+.slogan {
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+  background-color: rgb(14, 14, 211);
+  color: white;
+}
+.move-center
+{
+  text-align: center;
+padding-bottom: 15px;
+}
+
+.alert
+{
+  margin-bottom: 1.5rem;
+}
+
+.profile-card {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f0f2f5;
+  transition: all 0.3s ease-in-out;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+  margin-bottom: 20px;
+  border: 2px solid #fff;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.avatar:hover {
+  border-color: #1890ff;
+}
+
+.user-info {
+  margin-bottom: 20px;
+}
+
+.username {
+  margin-bottom: 5px;
+  color: #1890ff;
+  font-size: 24px;
+}
+
+.username:hover {
+  color: #0d47a1;
+}
+
+.secondary-text {
+  margin-bottom: 10px;
+  color: #888;
+  font-size: 16px;
+}
+
+.role {
+  color: #555;
+  font-size: 18px;
+}
+
+.logout-button {
+  margin-top: 20px;
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.logout-button:hover {
+  background-color: #0d47a1;
+  transform: translateY(-2px);
+}
